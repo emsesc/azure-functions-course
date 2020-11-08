@@ -18,15 +18,10 @@ Serverless architectures offer greater scalability, more flexibility, and quicke
 - Parsing multipart data + Outputting in JSON
 - Installing npm dependencies
 - Working with the Face API
+- Learning how to use Postman
 
 ## **Week 3**
 **Learning Objectives**
 - Calling Azure Functions
 - Learning HTML/CSS
 - Uploading Images with Forms
-
-## **Week 4**
-**Learning Objectives**
-- Calling and Testing API Endpoints ft. Postman
-- Reading API Documentation
-- Build a working app end to end!
