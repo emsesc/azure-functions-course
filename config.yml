@@ -1,4 +1,4 @@
-title: Creating a Song Recommendation Engine with Azure (and Spotify API)
+title: Creating an Emotion Reader with Azure (Face API and HTTP Triggers)
 description: >-
   This learning lab course is part of Bit Project's 8 Week Program. By the end
   of the course, students will deploy a song recommendation web app using Azure
@@ -22,7 +22,6 @@ steps:
       - type: createIssue
         title: Week 1
         body: 1.1-ide.md
-        
   - title: 'Week 1: Downloading an IDE'
     description: Installing Visual Studio Code.
     event: issue_comment.created
@@ -30,7 +29,6 @@ steps:
     actions:
       - type: respond
         with: 1.2-azure.md
-        
   - title: 'Week 1: Creating an Azure account'
     description: Creating an Azure account and a basic function.
     event: issue_comment.created
@@ -48,37 +46,42 @@ steps:
         issue: 2
       - type: createIssue
         title: Week 2
-        body: 2.1-parsing.md
+        body: 2.0-postman.md
       - type: closeIssue
         issue: 2
-
+  - title: 'Week 2: Postman'
+    description: Sending a request with Postman.
+    event: issue_comment.created
+    actions:
+      - type: respond
+        with: 2.1-parsing.md
+  - title: 'Week 2: Installing Dependencies'
+    description: Using NPM to install necessities.
+    event: issue_comment.created
+    actions:
+      - type: respond
+        with: 2.2-parsing.md
   - title: 'Week 2: Parsing Multipart Data'
     description: Parsing an image for Face API.
     event: issue_comment.created
     actions:
       - type: respond
-        with: 2.2-faceEndpoint.md
+        with: 2.3-faceEndpoint.md
   - title: 'Week 2: Creating a Face API Endpoint'
     description: Connecting Face API components.
     event: issue_comment.created
     actions:
       - type: respond
-        with: 2.3-callFaceParams.md
+        with: 2.4-callFaceParams.md
   - title: 'Week 2: Calling Face API (Parameters)'
     description: Using Face API to analyze image.
     event: issue_comment.created
     link: '{{ repoUrl }}/pull/1'
     actions:
       - type: respond
-        with: 2.4-callFaceFetch.md
+        with: 2.5-callFaceFetch.md
   - title: 'Week 2: Calling Face API (Fetch)'
     description: Retrieving Face API analytics.
-    event: issue_comment.created
-    actions:
-      - type: respond
-        with: 2.5-dependencies.md
-  - title: 'Week 2: Installing Dependencies'
-    description: Using NPM to install necessities.
     event: issue_comment.created
     actions:
       - type: respond
@@ -104,70 +107,10 @@ steps:
       - type: respond
         with: 03-complete.md
         issue: 4
-      - type: createIssue
-        title: Week 4
-        body: 4.1-spotifyApp.md
       - type: closeIssue
         issue: 4
-  - title: 'Week 4: Creating a Web App'
-    description: Deploying our song recommendation engine.
-    event: push
-    actions:
-      - type: respond
-        with: 4.2-apiController.md
-        issue: 5
-  - title: 'Week 4: Making an API Controller'
-    description: Starting integration with Spotify API.
-    event: push
-    actions:
-      - type: respond
-        with: 4.3-recParams.md
-        issue: 5
-  - title: 'Week 4: Recommendation Parameters'
-    description: Creating parameters for retrieving song.
-    event: push
-    actions:
-      - type: respond
-        with: 4.4-recCall.md
-        issue: 5
-  - title: 'Week 4: Recommendation Call (GET)'
-    description: Using GET method to call.
-    event: push
-    actions:
-      - type: respond
-        with: 4.5-apiCtrlReturn.md
-        issue: 5
-  - title: 'Week 4: Return Method (API Controller)'
-    description: Returning Spotify API recommendations.
-    event: push
-    actions:
-      - type: respond
-        with: 4.6-UIController.md
-        issue: 5
-  - title: 'Week 4: UI Controller'
-    description: Connecting recommendations to UI.
-    event: push
-    actions:
-      - type: respond
-        with: 4.7-appController.md
-        issue: 5
-  - title: 'Week 4: App Controller'
-    description: Using JQuery to embed in app.
-    event: push
-    actions:
-      - type: respond
-        with: 4.8-eventlistener.md
-        issue: 5
-  - title: 'Week 4: Event Listener (Final Step)'
-    description: Setup event listeners to finish web app.
-    event: push
-    actions:
-      - type: respond
-        with: 04-complete.md
-        issue: 5
 tags:
   - Azure
   - Azure Functions
-  - Spotify API
   - Bit Project
   - JavaScript
