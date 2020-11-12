@@ -66,6 +66,12 @@ steps:
     event: issue_comment.created
     actions:
       - type: respond
+        with: 2.2.1-checkpoint1.md
+  - title: 'Week 2: Checkpoint #1'
+    description: Testing Your Azure Function
+    event: issue_comment.created
+    actions:
+      - type: respond
         with: 2.3-faceEndpoint.md
   - title: 'Week 2: Creating a Face API Endpoint'
     description: Connecting Face API components.
@@ -82,6 +88,13 @@ steps:
         with: 2.5-callFaceFetch.md
   - title: 'Week 2: Calling Face API (Fetch)'
     description: Retrieving Face API analytics.
+    event: issue_comment.created
+    link: '{{ repoUrl }}/pull/1'
+    actions:
+      - type: respond
+        with: 2.5.1-checkpoint2.md  
+  - title: 'Week 2: Checkpoint #2'
+    description: Testing Your Azure Function
     event: issue_comment.created
     actions:
       - type: respond
