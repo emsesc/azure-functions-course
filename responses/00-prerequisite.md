@@ -1,4 +1,4 @@
-## Prerequisite: Fundamentals of JavaScript(This should be done already! Read the bottom of the doc to continue)
+## Prerequisite: Fundamentals of JavaScript (This should be done already! Read the bottom of the doc to continue)
 
 Welcome to **Bit Camp**, where students get hands-on experience with software engineering. Before the program starts, please find some time to complete the following assignment: learn/review JavaScript fundamentals that will later be used in the program. To complete this assignment, you will be creating a digital clock using JavaScript to demonstrate your skills! If you need any help, refer to these resources:
 
