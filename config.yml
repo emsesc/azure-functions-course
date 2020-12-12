@@ -31,7 +31,7 @@ steps:
         with: 1.2-azure.md
   - title: 'Week 1: Creating an Azure account'
     description: Creating an Azure account and a basic function.
-    event: issue_comment.created
+    event: push
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
