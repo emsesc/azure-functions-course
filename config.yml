@@ -31,7 +31,7 @@ steps:
         with: 1.2-azure.md
   - title: 'Week 1: Creating an Azure account'
     description: Creating an Azure account and a basic function.
-    event: issue_comment.created
+    event: push
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
@@ -116,6 +116,13 @@ steps:
     description: Using JQuery to change HTML.
     event: push
     link: '{{ repoUrl }}/pull/1'
+    actions:
+      - type: respond
+        with: 3.3-deploy.md
+        issue: 4
+  - title: 'Week 3: Web Deployment'
+    description: Deploying through Azure Static Web Apps.
+    event: issue_comment.created
     actions:
       - type: respond
         with: 03-complete.md
