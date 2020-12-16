@@ -1,12 +1,12 @@
-## Prerequisite: Fundamentals of JavaScript (This should be done already! Read the bottom of the doc to continue)
+## Prerequisite: Fundamentals of JavaScript
+
+Note: Most of these items should be done already! Read the bottom of the doc to continue :smile:
 
 Welcome to **Bit Camp**, where students get hands-on experience with software engineering. Before the program starts, please find some time to complete the following assignment: learn/review JavaScript fundamentals that will later be used in the program. To complete this assignment, you will be creating a digital clock using JavaScript to demonstrate your skills! If you need any help, refer to these resources:
 
-W3Schools: https://www.w3schools.com/js/default.asp
-
-Tutorialspoint: https://www.tutorialspoint.com/javascript/javascript_overview.htm
-
-Modern JS: https://javascript.info/
+- W3Schools: https://www.w3schools.com/js/default.asp
+- Tutorialspoint: https://www.tutorialspoint.com/javascript/javascript_overview.htm
+- Modern JS: https://javascript.info/
 
 If you have specific questions, try out Stack Overflow (it is super duper helpful):
 
@@ -22,7 +22,7 @@ After you have learned/refreshed your knowledge of JavaScript, let's get started
 **Extensions:**
 
 - Turn your clock from digital to analog mode (hint: you're gonna need a lot of CSS for this...)
-- Use CSS to style your clock (ie: make it blue, green, yellow, etc)
+- Use CSS to style your clock (i.e. make it blue, green, yellow, etc)
 - Create animations for your clock (ie. when the minute hand changes, it rotates/spins)
 
 *Don't know where to get started?* Start off by creating a new function that starts your clock:
