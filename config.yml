@@ -134,8 +134,39 @@ steps:
       - type: respond
         with: 03-complete.md
         issue: 4
+      - type: createIssue
+        title: Week 4
+        body: 4.1-proposal.md
       - type: closeIssue
         issue: 4
+  - title: 'Week 4: Project Proposal'
+    description: Submitting final project proposals.
+    event: push
+    actions:
+      - type: respond
+        with: 4.2-mvp.md
+        issue: 5
+  - title: 'Week 4: MVP'
+    description: Building the MVP.
+    event: push
+    actions:
+      - type: respond
+        with: 4.3-final.md
+        issue: 5      
+  - title: 'Week 4: Final Project'
+    description: Completing the final project.
+    event: push
+    actions:
+      - type: respond
+        with: 4.4-lightningTalk.md
+        issue: 5     
+  - title: 'Week 4: Lightning Talk'
+    description: Preparing your lightning talk.
+    event: issue_comment.created
+    actions:
+      - type: respond
+        with: 04-complete.md
+        issue: 5
 tags:
   - Azure
   - Azure Functions
