@@ -149,7 +149,7 @@ steps:
         with: 03-complete.md
         issue: 4
       - type: createIssue
-        title: Week 4
+        title: Final Project
         body: 4.1-proposal.md
       - type: closeIssue
         issue: 4
