@@ -153,28 +153,28 @@ steps:
         body: 4.1-proposal.md
       - type: closeIssue
         issue: 4
-  - title: 'Week 4: Project Proposal'
+  - title: 'Final Project: Project Proposal'
     description: Submitting final project proposals.
     event: push
     actions:
       - type: respond
         with: 4.2-mvp.md
         issue: 5
-  - title: 'Week 4: MVP'
+  - title: 'Final Project: MVP'
     description: Building the MVP.
     event: push
     actions:
       - type: respond
         with: 4.3-final.md
         issue: 5      
-  - title: 'Week 4: Final Project'
+  - title: 'Final Project: Final Steps'
     description: Completing the final project.
     event: push
     actions:
       - type: respond
         with: 4.4-lightningTalk.md
         issue: 5     
-  - title: 'Week 4: Lightning Talk'
+  - title: 'Final Project: Lightning Talk'
     description: Preparing your lightning talk.
     event: issue_comment.created
     actions:
