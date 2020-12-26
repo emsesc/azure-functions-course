@@ -42,6 +42,13 @@ steps:
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
+        with: 1.4-feedback.md
+  - title: 'Week 1: Livestream Feedback'
+    description: Help us improve this course!
+    event: push
+    link: '{{ repoUrl }}/issues/1'
+    actions:
+      - type: respond
         with: 01-complete.md
         issue: 2
       - type: createIssue
@@ -92,9 +99,16 @@ steps:
     link: '{{ repoUrl }}/pull/1'
     actions:
       - type: respond
-        with: 2.5.1-checkpoint2.md  
+        with: 2.5.1-checkpoint2.md
   - title: 'Week 2: Checkpoint #2'
     description: Testing Your Azure Function
+    event: issue_comment.created
+    link: '{{ repoUrl }}/pull/1'
+    actions:
+      - type: respond
+        with: 2.6-feedback.md
+  - title: 'Week 2: Livestream Feedback'
+    description: Help us improve this course!
     event: issue_comment.created
     actions:
       - type: respond
@@ -125,10 +139,10 @@ steps:
     event: issue_comment.created
     actions:
       - type: respond
-        with: 03-complete.md
+        with: 3.4-feedback.md
         issue: 4
-  - title: 'Week 3: Web Deployment'
-    description: Deploying through Azure Static Web Apps.
+  - title: 'Week 3: Livestream Feedback'
+    description: Help us improve this course!
     event: issue_comment.created
     actions:
       - type: respond
