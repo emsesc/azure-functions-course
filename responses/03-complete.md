@@ -1,1 +1,1 @@
-Great job completing the course!
+Great job completing week 3!
