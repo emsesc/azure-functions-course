@@ -181,6 +181,8 @@ steps:
       - type: respond
         with: 04-complete.md
         issue: 5
+        type: closeIssue
+        issue: 5
 tags:
   - Azure
   - Azure Functions
